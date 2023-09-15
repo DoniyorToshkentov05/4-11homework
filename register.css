@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow & family= Bebas+Neue & family= Cardo & family= Fraunces & family= Fredoka:wght@600 & family= Hind+ Madurai:wght@600 & family= Hind+Siliguri & family= Inter:wght@400;600 & family= Lato:wght@400;700 & family= Lilita+One & family= Maven+Pro:wght@500 & family= Open+Sans & family= Poppins:wgh@500 &family= Roboto & family= Space+Mono & family= Yellowtail & display=almashtirish');html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: brown;
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.727);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box .toggle-btn {
+    margin: 0 0 30px;
+    width: 70px;
+    height: 30px;
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+
+
+font-weight: 700;  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    font-family: 'Maven Pro', sans-serif;
+  }
+ 
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: brown;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #ff0000;
+    font-size: 12px;
+  }
+  .submit-btn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+
+  }
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    color: #ff0000;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    background: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ff0000,
+                0 0 25px #e20000,
+                0 0 50px #cc0a0a,
+                0 0 100px #d50303;
+  }
+  .login-box a:hover {
+    background: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ff0000,
+                0 0 25px #e20000,
+                0 0 50px #cc0a0a,
+                0 0 100px #d50303;
+  }
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  
