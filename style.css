@@ -83,8 +83,9 @@ li span {
 #countdown{
 width: 300px;
 height: 200px;
-margin-left: 450px;
-margin-top: -395px;
+margin: 0 auto;
+top: -330px;
+position: relative;
 }
 
 #value{
@@ -809,6 +810,10 @@ footer span a:hover{
 .top:hover{
     background-color: white;
 }
+
+
+
+
 
 
 
